@@ -8,8 +8,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: ip-172-31-86-157 # Specifies the runner environment
-
+    runs-on: [self-hosted, ip-172-31-86-157]
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4 # Action to check out your code
