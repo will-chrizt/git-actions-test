@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest # Specifies the runner environment
+    runs-on: ip-172-31-86-157 # Specifies the runner environment
 
     steps:
     - name: Checkout repository
